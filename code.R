@@ -17,3 +17,5 @@ border_data %>%
   geom_point() + 
   facet_wrap(~ Border)
 
+table(border_data$State)
+
